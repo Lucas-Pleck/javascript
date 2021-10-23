@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    height: 250vh;
+}
+
+#scroll_top{
+    display:none;
+    position: fixed;
+    bottom: 2vh;
+    right: 5vw;
+    z-index: 100;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    border-radius: 15% 15% 30% 30%;
+    box-shadow: 0 0 2rem rgba(135, 206, 250, 0.397);
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .4s ease-in-out;
+}
+
+#scroll_top:hover{
+    background-color: lightblue;
+    box-shadow: 0 0 2rem rgba(0, 0, 139, 0.349);
+    color: darkblue;
+}
+
+html{
+    scroll-behavior: smooth;
+}
